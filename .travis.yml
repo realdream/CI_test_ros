@@ -1,4 +1,6 @@
 language: cpp
+os: linux
+dist: xenial
 sudo: required
 before_install:
   - sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
