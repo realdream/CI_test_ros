@@ -1,0 +1,224 @@
+repositories:
+#Ament
+  ros2_ament/src/ament/ament_cmake:
+    type: git
+    url: https://github.com/ament/ament_cmake.git
+    version: 0.4.0
+  ros2_ament/src/ament/ament_index:
+    type: git
+    url: https://github.com/ament/ament_index.git
+    version: 0.4.0
+  ros2_ament/src/ament/ament_lint:
+    type: git
+    url: https://github.com/ament/ament_lint.git
+    version: 0.4.0
+  ros2_ament/src/ament/ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: 0.4.0
+  ros2_ament/src/ament/ament_tools:
+    type: git
+    url: https://github.com/ament/ament_tools.git
+    version: 0.4.0
+  ros2_ament/src/ament/googletest:
+    type: git
+    url: https://github.com/ament/googletest.git
+    version: eb77b54187d95024d37dce7201731637e5e42fb8
+  ros2_ament/src/ament/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: 0.1.4
+  ros2_ament/src/ament/uncrustify:
+    type: git
+    url: https://github.com/ament/uncrustify.git
+    version: 0.61.20150413
+
+#core_lib
+  ros2_core/src/eProsima/Fast-CDR:
+    type: git
+    url: https://github.com/eProsima/Fast-CDR.git
+    version: 8d1489780cd58947e5f7104b84641f680224cdea
+  ros2_core/src/eProsima/Fast-RTPS:
+    type: git
+    url: https://github.com/eProsima/Fast-RTPS.git
+    version: bfb448e19bff253293e8f28ee8c3d3d78d882be2
+
+  ros2_core/src/ros/class_loader:
+    type: git
+    url: https://github.com/ros/class_loader.git
+    version: 1.0.0
+  ros2_core/src/ros/console_bridge:
+    type: git
+    url: https://github.com/ros/console_bridge.git
+    version: 0.4.0
+  ros2_core/src/ros/pluginlib:
+    type: git
+    url: https://github.com/ros/pluginlib.git
+    version: 3.0.0
+  ros2_core/src/ros/resource_retriever:
+    type: git
+    url: https://github.com/ros/resource_retriever.git
+    version: 2.0.2
+  ros2_core/src/ros/ros_environment:
+    type: git
+    url: https://github.com/ros/ros_environment.git
+    version: 2.0.0
+  
+  ros2_core/src/ros2/ament_cmake_ros:
+    type: git
+    url: https://github.com/ros2/ament_cmake_ros.git
+    version: 0.4.0
+  ros2_core/src/ros2/common_interfaces:
+    type: git
+    url: https://github.com/ros2/common_interfaces.git
+    version: 0.4.0
+  ros2_core/src/ros2/poco_vendor:
+    type: git
+    url: https://github.com/ros2/poco_vendor.git
+    version: 1.0.0
+  ros2_core/src/ros2/rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: 0.4.0
+  ros2_core/src/ros2/rcl_interfaces:
+    type: git
+    url: https://github.com/ros2/rcl_interfaces.git
+    version: 0.4.0
+  ros2_core/src/ros2/rcutils:
+    type: git
+    url: https://github.com/ros2/rcutils.git
+    version: 0.4.0
+  ros2_core/src/ros2/rmw:
+    type: git
+    url: https://github.com/ros2/rmw.git
+    version: 0.4.0
+  ros2_core/src/ros2/rmw_connext:
+    type: git
+    url: https://github.com/ros2/rmw_connext.git
+    version: 0.4.0
+  ros2_core/src/ros2/rmw_fastrtps:
+    type: git
+    url: https://github.com/ros2/rmw_fastrtps.git
+    version: 0.4.0
+  ros2_core/src/ros2/rmw_implementation:
+    type: git
+    url: https://github.com/ros2/rmw_implementation.git
+    version: 0.4.0
+  ros2_core/src/ros2/rmw_opensplice:
+    type: git
+    url: https://github.com/ros2/rmw_opensplice.git
+    version: 0.4.0
+  ros2_core/src/ros2/rosidl:
+    type: git
+    url: https://github.com/ros2/rosidl.git
+    version: 0.4.1
+  ros2_core/src/ros2/rosidl_dds:
+    type: git
+    url: https://github.com/ros2/rosidl_dds.git
+    version: 0.4.0
+  ros2_core/src/ros2/rosidl_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport.git
+    version: 0.4.0
+  ros2_core/src/ros2/tinyxml_vendor:
+    type: git
+    url: https://github.com/ros2/tinyxml_vendor.git
+    version: 0.4.0
+  ros2_core/src/ros2/tinyxml2_vendor:
+    type: git
+    url: https://github.com/ros2/tinyxml2_vendor.git
+    version: 0.4.0
+  ros2_core/src/ros2/sros2:
+    type: git
+    url: https://github.com/ros2/sros2.git
+    version: 0.4.1
+
+
+  
+#  ros2_rcl/src/rclc:
+#    type: git
+#    url: https://github.com/ros2/rclc.git
+#    version: master
+  ros2_rcl/src/rclcpp:
+    type: git
+    url: https://github.com/ros2/rclcpp.git
+    version: 0.4.0
+  ros2_rcl/src/rclpy:
+    type: git
+    url: https://github.com/ros2/rclpy.git
+    version: 0.4.0
+  ros2_rcl/src/demos:
+    type: git
+    url: https://github.com/ros2/demos.git
+    version: 0.4.0
+  ros2_rcl/src/examples:
+    type: git
+    url: https://github.com/ros2/examples.git
+    version: 0.4.0
+  ros2_rcl/src/example_interfaces:
+    type: git
+    url: https://github.com/ros2/example_interfaces.git
+    version: 0.4.0
+  ros2_rcl/src/system_tests:
+    type: git
+    url: https://github.com/ros2/system_tests.git
+    version: 0.4.0
+  ros2_rcl/src/ros2cli:
+    type: git
+    url: https://github.com/ros2/ros2cli.git
+    version: 0.4.0
+  ros2_rcl/src/launch:
+    type: git
+    url: https://github.com/ros2/launch.git
+    version: 0.4.0
+
+
+
+  ros2_other/src/geometry2:
+    type: git
+    url: https://github.com/ros2/geometry2.git
+    version: 0.8.0
+  ros2_other/src/kdl_parser:
+    type: git
+    url: https://github.com/ros2/kdl_parser.git
+    version: 2.0.0
+  ros2_other/src/orocos_kinematics_dynamics:
+    type: git
+    url: https://github.com/ros2/orocos_kinematics_dynamics.git
+    version: 1.4.0
+  ros2_other/src/realtime_support:
+    type: git
+    url: https://github.com/ros2/realtime_support.git
+    version: 0.4.0
+  ros2_other/src/robot_state_publisher:
+    type: git
+    url: https://github.com/ros2/robot_state_publisher.git
+    version: 2.0.0
+  ros2_other/src/ros1_bridge:
+    type: git
+    url: https://github.com/ros2/ros1_bridge.git
+    version: 0.4.0
+  ros2_other/src/rviz:
+    type: git
+    url: https://github.com/ros2/rviz.git
+    version: 3.0.0
+  ros2_other/src/tlsf:
+    type: git
+    url: https://github.com/ros2/tlsf.git
+    version: 0.4.0
+#  ros2_other/src/tutorials:
+#    type: git
+#    url: https://github.com/ros2/tutorials.git
+#    version: master
+  ros2_other/src/urdf:
+    type: git
+    url: https://github.com/ros2/urdf.git
+    version: 2.0.0
+  ros2_other/src/urdfdom:
+    type: git
+    url: https://github.com/ros2/urdfdom.git
+    version: d2e5e37094c48c2a96e922988199a78475ba5d3a
+  ros2_other/src/urdfdom_headers:
+    type: git
+    url: https://github.com/ros2/urdfdom_headers.git
+    version: acb0c4bd3879a4e2ae5bd7d3551d8e7cc1037fa8
